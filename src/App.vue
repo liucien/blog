@@ -35,10 +35,10 @@
 
             }
         },
-        mounted(){
-            fetch('https://api.github.com/repos/liucien/my-blog/issues').then(res => {
-                console.log(res)
-            })
-        }
+        // mounted(){
+        //     fetch('https://api.github.com/repos/liucien/my-blog/issues').then(res => {
+        //         console.log(res)
+        //     })
+        // }
     }
 </script>
