@@ -37,9 +37,9 @@
             }
         },
         mounted(){
-            fetch('https://api.github.com/repos/liucien/my-blog/issues').then(res => {
-                console.log('fetch',res)
-            });
+            // fetch('https://api.github.com/repos/liucien/my-blog/issues').then(res => {
+            //     console.log('fetch',res)
+            // });
             axios.get('https://api.github.com/repos/liucien/my-blog/issues').then(res => {
                 console.log('axios',res)
             })
